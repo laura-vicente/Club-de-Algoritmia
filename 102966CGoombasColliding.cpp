@@ -32,6 +32,6 @@ int main(){
         cout << Derecha << "\n";
     }
     else
-        cout << ContadorI << "\n";
+        cout << Derecha << "\n";
 
 }
