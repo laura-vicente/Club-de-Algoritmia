@@ -24,18 +24,14 @@ int main(){
         }
     }
 
-    ContadorD = Derecha;
-    ContadorI = L - Izquierda;
 
-    if (ContadorD > ContadorI){
+    Derecha = L - Izquierda;
 
-        cout << ContadorD << "\n";
+    if (Derecha > ContadorI){
+
+        cout << Derecha << "\n";
     }
     else
         cout << ContadorI << "\n";
 
-    if(ContadorI == 1){
-
-        cout << "2";
-    }
 }
