@@ -34,4 +34,8 @@ int main(){
     else
         cout << ContadorI << "\n";
 
+    if(ContadorI == 1){
+
+        cout << "2";
+    }
 }
